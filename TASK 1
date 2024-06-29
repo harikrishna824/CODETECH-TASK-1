@@ -1,0 +1,20 @@
+num1=int(input("Give 1st num: "))
+num2=int(input("Give 2st num: "))
+operater=input("give operater: ")
+
+if operater=="+":
+    print(f"addition of 2 numbers is {num1+num2} ")
+    
+elif operater=="-":
+    print(f"subration of 2 numbersis {num1-num2} ")
+        
+elif operater=="*":
+    print(f"multipuction of 2 numbers is {num1*num2} ")
+        
+elif operater=="/":
+     print(f"division of 2 numbers is {num1/num2} ")
+     
+else:
+    print("invalied operater")
+            
+
